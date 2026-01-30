@@ -10,6 +10,6 @@ int main () {
     scanf("%f", &calificacion3);
     suma = (calificacion1 + calificacion2 + calificacion3);
     final = suma / 3;
-    printf("Su calificación final entre las tres materias es: %f", &final);
+    printf("Su calificación final entre las tres materias es: %f\n", final);
     return 0;
 }
